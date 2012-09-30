@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="20dip"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:inputType="text"
+        android:paddingBottom="10dp"
+        tools:context=".EditActivity" />
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:id="@+id/commitButton"
+        android:text="@string/commitButton"
+        />
+
+</LinearLayout>
